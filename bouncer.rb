@@ -3,13 +3,14 @@ def check_age()
   age = gets.chomp
   return age.to_i
 end
+
 def determine(int_age)
   if int_age < 18
-    puts "You cant do anything yet"
+    puts "You cant do anything yet!"
   elsif int_age >=	18 && int_age <21
     puts "You can smoke, and vote!"
   elsif int_age >=21 && int_age < 25
-    puts "You can vote, smoke, and drink"
+    puts "You can vote, smoke, and drink!"
   else
     puts "You can vote, smoke, drink, and rent cars!"
   end

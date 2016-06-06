@@ -29,5 +29,4 @@ while keep_asking == true do
   determine(int_age)
   answer = yes_no ("Do you want to quit? (y/n)")
   keep_asking = false if answer == "y"
-
 end
